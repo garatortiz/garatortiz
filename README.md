@@ -1,46 +1,39 @@
-# 👋 Hola, soy Matias Garat Ortiz
+# Matías Garat Ortiz
 
-👨‍💻 Engineering Manager & SaaS builder  
-🚀 Creo productos que conectan personas: ideas, código y AI con propósito.  
-☕ Siempre en modo prototipo.
+Ingeniero de software y Fractional CTO. Diseño, construyo y escalo sistemas backend: pagos de alto volumen, IA en producción y los equipos que los sostienen.
 
----
-
-Actualmente lidero equipos en fintech mientras diseño ideas que cobran vida en la web. Me apasiona todo lo que combine tecnología, creatividad y soluciones con impacto real.
-
-Suelo moverme entre el código y la visión, impulsando productos que nacen de necesidades reales: plataformas para eventos, herramientas para comunidades y soluciones simples pero efectivas.
-
-### 🧠 Cosas que me entusiasman:
-- AI aplicada a problemas reales
-- Productos que empiezan como ideas locas
-- Node.js, NestJS, TypeScript
-- Diseño simple y enfocado en la experiencia
-- Prototipar rápido, fallar rápido, aprender más rápido
+[garatortiz.com](https://garatortiz.com) · [LinkedIn](https://www.linkedin.com/in/garatortiz/) · [X](https://x.com/garatortiz) · [Instagram](https://instagram.com/garatortiz.dev) · [matias@garatortiz.com](mailto:matias@garatortiz.com)
 
 ---
 
-## 🚀 Proyecto destacado: [ollama-commits](https://github.com/garatortiz/ollama-commits)
+## Qué construí
 
-> 🔧 Un fork de [aicommits](https://github.com/Nutlope/aicommits), adaptado para funcionar con modelos locales usando **Ollama**.  
-> ✨ Ideal para quienes buscan privacidad, velocidad y control total sobre sus commits generados por IA.
+- **Pagos a escala.** Lideré equipos de 35 a más de 60 ingenieros en una red de pagos QR: más de 15M de transacciones por mes, 99.999% de disponibilidad y una migración sin downtime durante la integración con Fiserv. Más del 45% de los pagos comerciales con QR en Argentina pasan por productos de esos equipos.
+- **IA en producción, no en la demo.** Gateway de orquestación de LLMs sobre AWS Bedrock con ruteo semántico, filtrado de PII y RAG conectado a sistemas core bancarios. Los ciclos de integración pasaron a ser 10 veces más rápidos.
+- **15+ años** entre Fiserv, Ualá, itti, MODO y startups, liderando equipos sin soltar el código ni la arquitectura.
 
-`ollama-commits` está en desarrollo activo. ¡Si querés contribuir o probarlo, sos bienvenido!
+## Open source
 
----
+**[scripts](https://github.com/garatortiz/scripts)** — bash para el día a día con git y LLMs.
 
-### 🥋 Fun fact
+- `git-ai-commit.sh` propone el mensaje de commit (Conventional Commits) a partir del stage y no commitea hasta que confirmás.
+- `git-ai-pr.sh` arma título y descripción de la PR, pushea la rama y la abre en GitHub o Forgejo.
+- `update_repomix.sh` empaqueta el `main` de cada proyecto en un archivo de texto y lo sube a Drive.
 
-En mis tiempos libres practico karate y filosofía oriental, buscando equilibrio entre el mate y el código. Literal.
+Corre con Ollama local por defecto, o con Gemini y Groq. Antes de mandarle el diff al modelo, descarta archivos que parecen secretos.
 
----
+## Cómo trabajo
 
-### 📫 Conectemos
+- Lo simple que funciona vale más que lo complejo que impresiona.
+- Cada abstracción se gana su lugar.
+- Cada decisión técnica responde a un costo, un plazo o un objetivo de negocio.
 
-- 💼 [LinkedIn](https://www.linkedin.com/in/garatortiz/)
-- 🧠 [Medium](https://medium.com/@garatortiz)
-- 🐦 [Twitter](https://twitter.com/garatortiz) _(cuando no estoy en modo minimalista)_
-- 💌 Me podés encontrar también en este repo, o donde haya ideas por construir.
+## Stack
 
----
+TypeScript · Node.js / NestJS · Next.js · Go · Java / Kotlin · Python / FastAPI · PostgreSQL · Kafka · Redis · Docker / Kubernetes · AWS · Bedrock / Claude
 
-> *"Lo simple que funciona vale más que lo complejo que impresiona."*
+## Ahora
+
+Disponible para roles de liderazgo de ingeniería y proyectos como Fractional CTO. Si estás armando o escalando un producto, [agendá 30 minutos](https://cal.com/garatortiz/scoping-call) o escribime.
+
+Fuera del teclado: karate, filosofía oriental y mate.
